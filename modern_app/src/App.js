@@ -18,7 +18,7 @@ import {
 
 const App = () => (
   <div className='text-white bg-primary w-full overflow-hidden'>
-    <div className={`${styles.paddingX} ${styles.flexcenter}`}>
+    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <Navbar/>
       </div>
@@ -30,7 +30,7 @@ const App = () => (
       </div>
     </div>
 
-    <div className={`bg-primary ${styles.flexStart}`}>
+    <div className={`bg-primary ${styles.flexStart} px-12`}>
       <div className={`${styles.boxWidth}`}>
         <Stats/>
         <Buisness/>
