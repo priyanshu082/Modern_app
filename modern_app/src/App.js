@@ -4,20 +4,20 @@ import {
   Navbar,
   Billing,
   Buisness,
-  Button,
+  // Button,
   CardDeal,
   Clients,
   CTA,
-  FeedbackCard,
+  // FeedbackCard,
   Footer,
-  GetStarted,
+  // GetStarted,
   Hero,
   Stats,
   Testimonials
 } from "./components"
 
 const App = () => (
-  <div className='text-white bg-primary w-full overflow-hidden'>
+  <div className='text-white bg-primary w-full overflow-hidden md:pl-7 lg:pl-7 xl:pl-7'>
     <div className={`${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <Navbar/>
@@ -35,7 +35,7 @@ const App = () => (
         <Stats/>
         <Buisness/>
         <Billing/>
-        <carDeal/>
+        <CardDeal/>
         <Testimonials/>
         <Clients/>
         <CTA/>
